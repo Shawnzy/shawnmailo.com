@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Shawn's World</title>
+    
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+      	<h1>Welcome to <span>Shawn's World</span></h1>
+   
+        <div id="navigation">
+    	    <ul class="nav">
+        		<li><a href="bio.php" class="info">Bio</a></li>
+        		<li><a href="workportfolio.php" class="CurrentWork">Work Portfolio</a></li>
+        		<li><a href="fun.php" class="wrench">Fun</a></li>
+                <li><a href="blog.php" class="wrench">Blog</a></li>
+        		<li><a href="contact.php" class="envelope">Contact Shawn</a></li>
+    	    </ul>
+            <div class="clear"></div>
+        </div>
+
+        <div id="stage">    
+        </div>
+
+
+       </div>
+ 
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+
+.container{
+	width: 1050px; 
+	margin: 0 auto;
+}
+
+body{
+	width: 1050px; 
+	margin: 0 auto;
+	font-family:'Permanent Marker', cursive;
+   background-image: url('img/blkwhtred.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	}
+
+h1{
+	width: 900px;
+	letter-spacing: 0px;
+	position: fixed;
+	top: 45px;
+	right: 160px;
+	margin:0 0;
+	text-align: right;
+	color: #FFFFFF;
+	font-size: 60px;
+	}
+
+h1 span{
+	color: #FF0000;
+}
+
+ul.nav {
+	width:320px;
+	padding: 0 0 0 0;
+	margin: 25px 0;
+	position: fixed;
+	top: 130px;
+	left: 5px;
+	list-style: none;
+	}
+
+
+ul.nav li a{
+	padding: 0 0;
+	margin:0 0;
+	text-align: left;
+	font-size: 22px;
+	color:#FFFFFF;
+	border-radius: 5px;
+	text-decoration: none;
+	}
+
+/*ul.nav {
+	width:100%;
+	padding: 0 0 0 0;
+	position: fixed;
+	top: 5px;
+	left: 0;
+	list-style: none;
+	}
+
+
+ul.nav li a{
+	padding: 0 0;
+	margin:0 6.25%;
+	float: left;
+	width:12.5%;
+	text-align: center;
+	font-size: 22px;
+	color:#FFFFFF;
+	border-radius: 5px;
+	text-decoration: none;
+	}*/
+ul.nav li a:hover{
+	color: #FF0000;
+}
+
+
+#stage{
+    /* The stage contains the individual divs that comprise the halftone icon: */
+    height:300px;
+    position:fixed;
+ 	bottom: 90px;
+ 	left: 250px; 
+    width:400px;
+}
+
+.dot{
+    /* The stage contains 192 .dot divs: */
+    float:left;
+    height:25px;
+    width:25px;
+
+}
+
+.dot.active{
+    /* When assigned the active class, the div shows a background image of a dot: */
+    background:url(img/dot.png) no-repeat center center;
+}
+
+.clear{
+    /* Old-school clear fix hack to clear the floats: */
+    clear:both;
+}
